@@ -4,7 +4,6 @@
  * A Simple and efficient model for database driven routing for project
  *
  * @author      :   Ehsaan Khatree
- * @license     :   KoffeeOrder [FSD Solutions];
  * @category    :   URL Routing
  * @version     :   v1.00
  * @package     :   CodeIgniter
