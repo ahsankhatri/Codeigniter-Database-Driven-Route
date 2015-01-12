@@ -58,7 +58,7 @@ class RouteModel extends CI_Model {
             return $value[ $this->URIcolumnName ];
 
         /* else generate from title */
-        return url_title( $value[ $this->titleColumnName ] );
+        return url_title( $value[ $this->titleColumnName ], '-', TRUE );
 
     }
 
