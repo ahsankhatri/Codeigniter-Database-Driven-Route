@@ -1,7 +1,7 @@
 # Codeigniter-Database-Driven-Route
 Simple model to generate cache of URL from database for faster performance.
 
-Insert this code in your `application/config/config.php`
+Insert this code in your `application/config/routes.php`
 
 ```php
 # Static Pages Route dynamicly generated
