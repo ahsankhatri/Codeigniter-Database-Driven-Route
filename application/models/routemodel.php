@@ -104,7 +104,7 @@ class RouteModel extends CI_Model {
         $data = array();
         $data[] = "<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');\n\n";
 
-        $records = $this->SqlModel->getRecords('*',$this->tableName);
+        $records = $this->db->get($this->tableName)->result_array();
 
         foreach($records as $value) 
         {
